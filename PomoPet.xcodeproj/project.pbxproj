@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D056B0EF25884447000FED6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B0EE25884447000FED6D /* AppDelegate.swift */; };
+		D056B0F125884447000FED6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B0F025884447000FED6D /* SceneDelegate.swift */; };
+		D056B0F325884447000FED6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B0F225884447000FED6D /* ViewController.swift */; };
+		D056B0F625884447000FED6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056B0F425884447000FED6D /* Main.storyboard */; };
+		D056B0F82588444C000FED6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D056B0F72588444C000FED6D /* Assets.xcassets */; };
+		D056B0FB2588444C000FED6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D056B0F92588444C000FED6D /* LaunchScreen.storyboard */; };
+		D056B1062588444C000FED6D /* PomoPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B1052588444C000FED6D /* PomoPetTests.swift */; };
+		D056B1112588444C000FED6D /* PomoPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B1102588444C000FED6D /* PomoPetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D056B1022588444C000FED6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D056B0E325884447000FED6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D056B0EA25884447000FED6D;
+			remoteInfo = PomoPet;
+		};
+		D056B10D2588444C000FED6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D056B0E325884447000FED6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D056B0EA25884447000FED6D;
+			remoteInfo = PomoPet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D056B0EB25884447000FED6D /* PomoPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D056B0EE25884447000FED6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D056B0F025884447000FED6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D056B0F225884447000FED6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D056B0F525884447000FED6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D056B0F72588444C000FED6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D056B0FA2588444C000FED6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D056B0FC2588444C000FED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D056B1012588444C000FED6D /* PomoPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D056B1052588444C000FED6D /* PomoPetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoPetTests.swift; sourceTree = "<group>"; };
+		D056B1072588444C000FED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D056B10C2588444C000FED6D /* PomoPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D056B1102588444C000FED6D /* PomoPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoPetUITests.swift; sourceTree = "<group>"; };
+		D056B1122588444C000FED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D056B0E825884447000FED6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056B0FE2588444C000FED6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056B1092588444C000FED6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D056B0E225884447000FED6D = {
+			isa = PBXGroup;
+			children = (
+				D056B0ED25884447000FED6D /* PomoPet */,
+				D056B1042588444C000FED6D /* PomoPetTests */,
+				D056B10F2588444C000FED6D /* PomoPetUITests */,
+				D056B0EC25884447000FED6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D056B0EC25884447000FED6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D056B0EB25884447000FED6D /* PomoPet.app */,
+				D056B1012588444C000FED6D /* PomoPetTests.xctest */,
+				D056B10C2588444C000FED6D /* PomoPetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D056B0ED25884447000FED6D /* PomoPet */ = {
+			isa = PBXGroup;
+			children = (
+				D056B0EE25884447000FED6D /* AppDelegate.swift */,
+				D056B0F025884447000FED6D /* SceneDelegate.swift */,
+				D056B0F225884447000FED6D /* ViewController.swift */,
+				D056B0F425884447000FED6D /* Main.storyboard */,
+				D056B0F72588444C000FED6D /* Assets.xcassets */,
+				D056B0F92588444C000FED6D /* LaunchScreen.storyboard */,
+				D056B0FC2588444C000FED6D /* Info.plist */,
+			);
+			path = PomoPet;
+			sourceTree = "<group>";
+		};
+		D056B1042588444C000FED6D /* PomoPetTests */ = {
+			isa = PBXGroup;
+			children = (
+				D056B1052588444C000FED6D /* PomoPetTests.swift */,
+				D056B1072588444C000FED6D /* Info.plist */,
+			);
+			path = PomoPetTests;
+			sourceTree = "<group>";
+		};
+		D056B10F2588444C000FED6D /* PomoPetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D056B1102588444C000FED6D /* PomoPetUITests.swift */,
+				D056B1122588444C000FED6D /* Info.plist */,
+			);
+			path = PomoPetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D056B0EA25884447000FED6D /* PomoPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D056B1152588444C000FED6D /* Build configuration list for PBXNativeTarget "PomoPet" */;
+			buildPhases = (
+				D056B0E725884447000FED6D /* Sources */,
+				D056B0E825884447000FED6D /* Frameworks */,
+				D056B0E925884447000FED6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomoPet;
+			productName = PomoPet;
+			productReference = D056B0EB25884447000FED6D /* PomoPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D056B1002588444C000FED6D /* PomoPetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D056B1182588444C000FED6D /* Build configuration list for PBXNativeTarget "PomoPetTests" */;
+			buildPhases = (
+				D056B0FD2588444C000FED6D /* Sources */,
+				D056B0FE2588444C000FED6D /* Frameworks */,
+				D056B0FF2588444C000FED6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D056B1032588444C000FED6D /* PBXTargetDependency */,
+			);
+			name = PomoPetTests;
+			productName = PomoPetTests;
+			productReference = D056B1012588444C000FED6D /* PomoPetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D056B10B2588444C000FED6D /* PomoPetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D056B11B2588444C000FED6D /* Build configuration list for PBXNativeTarget "PomoPetUITests" */;
+			buildPhases = (
+				D056B1082588444C000FED6D /* Sources */,
+				D056B1092588444C000FED6D /* Frameworks */,
+				D056B10A2588444C000FED6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D056B10E2588444C000FED6D /* PBXTargetDependency */,
+			);
+			name = PomoPetUITests;
+			productName = PomoPetUITests;
+			productReference = D056B10C2588444C000FED6D /* PomoPetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D056B0E325884447000FED6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D056B0EA25884447000FED6D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					D056B1002588444C000FED6D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D056B0EA25884447000FED6D;
+					};
+					D056B10B2588444C000FED6D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D056B0EA25884447000FED6D;
+					};
+				};
+			};
+			buildConfigurationList = D056B0E625884447000FED6D /* Build configuration list for PBXProject "PomoPet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D056B0E225884447000FED6D;
+			productRefGroup = D056B0EC25884447000FED6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D056B0EA25884447000FED6D /* PomoPet */,
+				D056B1002588444C000FED6D /* PomoPetTests */,
+				D056B10B2588444C000FED6D /* PomoPetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D056B0E925884447000FED6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056B0FB2588444C000FED6D /* LaunchScreen.storyboard in Resources */,
+				D056B0F82588444C000FED6D /* Assets.xcassets in Resources */,
+				D056B0F625884447000FED6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056B0FF2588444C000FED6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056B10A2588444C000FED6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D056B0E725884447000FED6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056B0F325884447000FED6D /* ViewController.swift in Sources */,
+				D056B0EF25884447000FED6D /* AppDelegate.swift in Sources */,
+				D056B0F125884447000FED6D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056B0FD2588444C000FED6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056B1062588444C000FED6D /* PomoPetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D056B1082588444C000FED6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D056B1112588444C000FED6D /* PomoPetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D056B1032588444C000FED6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D056B0EA25884447000FED6D /* PomoPet */;
+			targetProxy = D056B1022588444C000FED6D /* PBXContainerItemProxy */;
+		};
+		D056B10E2588444C000FED6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D056B0EA25884447000FED6D /* PomoPet */;
+			targetProxy = D056B10D2588444C000FED6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D056B0F425884447000FED6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D056B0F525884447000FED6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D056B0F92588444C000FED6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D056B0FA2588444C000FED6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D056B1132588444C000FED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D056B1142588444C000FED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D056B1162588444C000FED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7297N2DPU;
+				INFOPLIST_FILE = PomoPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexis.PomoPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D056B1172588444C000FED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7297N2DPU;
+				INFOPLIST_FILE = PomoPet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexis.PomoPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D056B1192588444C000FED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7297N2DPU;
+				INFOPLIST_FILE = PomoPetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexis.PomoPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoPet.app/PomoPet";
+			};
+			name = Debug;
+		};
+		D056B11A2588444C000FED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7297N2DPU;
+				INFOPLIST_FILE = PomoPetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexis.PomoPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PomoPet.app/PomoPet";
+			};
+			name = Release;
+		};
+		D056B11C2588444C000FED6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7297N2DPU;
+				INFOPLIST_FILE = PomoPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexis.PomoPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomoPet;
+			};
+			name = Debug;
+		};
+		D056B11D2588444C000FED6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7297N2DPU;
+				INFOPLIST_FILE = PomoPetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alexis.PomoPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PomoPet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D056B0E625884447000FED6D /* Build configuration list for PBXProject "PomoPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056B1132588444C000FED6D /* Debug */,
+				D056B1142588444C000FED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D056B1152588444C000FED6D /* Build configuration list for PBXNativeTarget "PomoPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056B1162588444C000FED6D /* Debug */,
+				D056B1172588444C000FED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D056B1182588444C000FED6D /* Build configuration list for PBXNativeTarget "PomoPetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056B1192588444C000FED6D /* Debug */,
+				D056B11A2588444C000FED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D056B11B2588444C000FED6D /* Build configuration list for PBXNativeTarget "PomoPetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D056B11C2588444C000FED6D /* Debug */,
+				D056B11D2588444C000FED6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D056B0E325884447000FED6D /* Project object */;
+}
