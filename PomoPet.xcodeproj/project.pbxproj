@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D008A60C25A8EF7600B6E707 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D008A60B25A8EF7600B6E707 /* Theme.swift */; };
 		D02BD75025887D4E00CE9DC5 /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD74F25887D4E00CE9DC5 /* TimerController.swift */; };
 		D02BD75525887D6300CE9DC5 /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD75425887D6300CE9DC5 /* CharacterController.swift */; };
 		D02BD75A25887D7100CE9DC5 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD75925887D7100CE9DC5 /* TimerView.swift */; };
 		D02BD7622588836F00CE9DC5 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD7612588836F00CE9DC5 /* ViewController+Extension.swift */; };
 		D02BD7762588905700CE9DC5 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD7752588905700CE9DC5 /* CharacterView.swift */; };
+		D02BD77B2589331000CE9DC5 /* CoinHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD77A2589331000CE9DC5 /* CoinHeaderView.swift */; };
+		D030A0DD258AE0E100B12F0E /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A0DC258AE0E100B12F0E /* ThemeProtocol.swift */; };
+		D030A0E5258AE36E00B12F0E /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A0E4258AE36E00B12F0E /* LightTheme.swift */; };
+		D030A0EA258AE37700B12F0E /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A0E9258AE37700B12F0E /* DarkTheme.swift */; };
 		D056B0EF25884447000FED6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B0EE25884447000FED6D /* AppDelegate.swift */; };
 		D056B0F125884447000FED6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B0F025884447000FED6D /* SceneDelegate.swift */; };
 		D056B0F325884447000FED6D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B0F225884447000FED6D /* HomeController.swift */; };
@@ -40,11 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D008A60B25A8EF7600B6E707 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		D02BD74F25887D4E00CE9DC5 /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerController.swift; sourceTree = "<group>"; };
 		D02BD75425887D6300CE9DC5 /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
 		D02BD75925887D7100CE9DC5 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		D02BD7612588836F00CE9DC5 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 		D02BD7752588905700CE9DC5 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		D02BD77A2589331000CE9DC5 /* CoinHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinHeaderView.swift; sourceTree = "<group>"; };
+		D030A0DC258AE0E100B12F0E /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		D030A0E4258AE36E00B12F0E /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		D030A0E9258AE37700B12F0E /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
 		D056B0EB25884447000FED6D /* PomoPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomoPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D056B0EE25884447000FED6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D056B0F025884447000FED6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +96,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D030A0DA258ADF6700B12F0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D030A0DB258ADFC500B12F0E /* Theme */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D030A0DB258ADFC500B12F0E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				D030A0DC258AE0E100B12F0E /* ThemeProtocol.swift */,
+				D030A0E4258AE36E00B12F0E /* LightTheme.swift */,
+				D030A0E9258AE37700B12F0E /* DarkTheme.swift */,
+				D008A60B25A8EF7600B6E707 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		D056B0E225884447000FED6D = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +138,7 @@
 		D056B0ED25884447000FED6D /* PomoPet */ = {
 			isa = PBXGroup;
 			children = (
+				D030A0DA258ADF6700B12F0E /* Resources */,
 				D056B12525886DFB000FED6D /* Timer */,
 				D056B0EE25884447000FED6D /* AppDelegate.swift */,
 				D056B0F025884447000FED6D /* SceneDelegate.swift */,
@@ -147,6 +177,7 @@
 				D02BD75925887D7100CE9DC5 /* TimerView.swift */,
 				D02BD75425887D6300CE9DC5 /* CharacterController.swift */,
 				D02BD7752588905700CE9DC5 /* CharacterView.swift */,
+				D02BD77A2589331000CE9DC5 /* CoinHeaderView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -284,11 +315,16 @@
 				D02BD75A25887D7100CE9DC5 /* TimerView.swift in Sources */,
 				D056B0F325884447000FED6D /* HomeController.swift in Sources */,
 				D02BD75525887D6300CE9DC5 /* CharacterController.swift in Sources */,
+				D030A0DD258AE0E100B12F0E /* ThemeProtocol.swift in Sources */,
+				D030A0EA258AE37700B12F0E /* DarkTheme.swift in Sources */,
 				D056B0EF25884447000FED6D /* AppDelegate.swift in Sources */,
 				D02BD75025887D4E00CE9DC5 /* TimerController.swift in Sources */,
 				D02BD7762588905700CE9DC5 /* CharacterView.swift in Sources */,
+				D02BD77B2589331000CE9DC5 /* CoinHeaderView.swift in Sources */,
 				D056B12725886E0E000FED6D /* HomeView.swift in Sources */,
+				D030A0E5258AE36E00B12F0E /* LightTheme.swift in Sources */,
 				D056B0F125884447000FED6D /* SceneDelegate.swift in Sources */,
+				D008A60C25A8EF7600B6E707 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

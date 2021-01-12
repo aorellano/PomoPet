@@ -8,10 +8,33 @@
 import UIKit
 
 class TimerView: UIView {
+    let timer = UILabel()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .green
+        
+        setupView()
+    }
+    
+    func setupView() {
+        backgroundColor = Theme.current.backgroundColor
         translatesAutoresizingMaskIntoConstraints = false
+        setupTimer()
+    }
+    
+    func setupTimer() {
+        timer.text = "25:00"
+        timer.font = timer.font.withSize(100)
+        timer.textColor = Theme.current.accentColor
+        timer.translatesAutoresizingMaskIntoConstraints = false
+        placeTimer()
+    }
+    
+    func placeTimer() {
+        addSubview(timer)
+        
+        timer.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
+        timer.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
     }
     
     required init?(coder: NSCoder) {
