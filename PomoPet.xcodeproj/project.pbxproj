@@ -25,6 +25,7 @@
 		D056B1062588444C000FED6D /* PomoPetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B1052588444C000FED6D /* PomoPetTests.swift */; };
 		D056B1112588444C000FED6D /* PomoPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B1102588444C000FED6D /* PomoPetUITests.swift */; };
 		D056B12725886E0E000FED6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B12625886E0E000FED6D /* HomeView.swift */; };
+		D0679F1625CA636100A18CCF /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0679F1525CA636100A18CCF /* TabController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		D056B1102588444C000FED6D /* PomoPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoPetUITests.swift; sourceTree = "<group>"; };
 		D056B1122588444C000FED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D056B12625886E0E000FED6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D0679F1525CA636100A18CCF /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				D056B0F92588444C000FED6D /* LaunchScreen.storyboard */,
 				D056B0FC2588444C000FED6D /* Info.plist */,
 				D02BD7612588836F00CE9DC5 /* ViewController+Extension.swift */,
+				D0679F1525CA636100A18CCF /* TabController.swift */,
 			);
 			path = PomoPet;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				D02BD75025887D4E00CE9DC5 /* TimerController.swift in Sources */,
 				D02BD7762588905700CE9DC5 /* CharacterView.swift in Sources */,
 				D02BD77B2589331000CE9DC5 /* CoinHeaderView.swift in Sources */,
+				D0679F1625CA636100A18CCF /* TabController.swift in Sources */,
 				D056B12725886E0E000FED6D /* HomeView.swift in Sources */,
 				D030A0E5258AE36E00B12F0E /* LightTheme.swift in Sources */,
 				D056B0F125884447000FED6D /* SceneDelegate.swift in Sources */,

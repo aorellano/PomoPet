@@ -9,10 +9,9 @@ import UIKit
 import SpriteKit
 
 class HomeView: UIView {
-    let coinHeaderView = CoinHeaderView()
     let timerView = TimerView()
     let characterView = CharacterView()
-    let bottomButtons = UIView()
+    let bottomButtons = UIStackView()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -22,28 +21,18 @@ class HomeView: UIView {
     
     func setupView() {
         backgroundColor = Theme.current.backgroundColor
-        setupCoinHeaderView()
         setupTimerView()
         setupCharacterView()
-    }
-    
-    func setupCoinHeaderView() {
-        addSubview(coinHeaderView)
-        NSLayoutConstraint.activate([
-            coinHeaderView.topAnchor.constraint(equalTo: topAnchor),
-            coinHeaderView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            coinHeaderView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            coinHeaderView.heightAnchor.constraint(equalToConstant: 75)
-        ])
+        setupBottomButtons()
     }
     
     func setupTimerView() {
         addSubview(timerView)
         NSLayoutConstraint.activate([
-            timerView.topAnchor.constraint(equalTo: coinHeaderView.bottomAnchor),
+            timerView.topAnchor.constraint(equalTo: topAnchor, constant: 60),
             timerView.leadingAnchor.constraint(equalTo: leadingAnchor),
             timerView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            timerView.heightAnchor.constraint(equalToConstant: UIScreen.main.bounds.height/4)
+            timerView.heightAnchor.constraint(equalToConstant: UIScreen.main.bounds.height/4.5)
         ])
     }
     
@@ -55,6 +44,42 @@ class HomeView: UIView {
             characterView.trailingAnchor.constraint(equalTo: trailingAnchor),
             characterView.heightAnchor.constraint(equalToConstant: UIScreen.main.bounds.height/2.2)
         ])
+    }
+    
+    func setupBottomButtons() {
+        bottomButtons.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(bottomButtons)
+        bottomButtons.axis = .horizontal
+        bottomButtons.distribution = .fillEqually
+        bottomButtons.spacing = 15
+        
+        setupStartButton()
+        setupPauseButton()
+    
+        NSLayoutConstraint.activate([
+            bottomButtons.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 15),
+            bottomButtons.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -15),
+            bottomButtons.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -20),
+            bottomButtons.heightAnchor.constraint(equalToConstant: 60)
+        ])
+    }
+    
+    func setupStartButton() {
+        let startButton = UIButton()
+        startButton.setTitle("Start", for: .normal)
+        startButton.backgroundColor = .blue
+        startButton.layer.cornerRadius = 10
+        
+        bottomButtons.addArrangedSubview(startButton)
+    }
+    
+    func setupPauseButton() {
+        let pauseButton = UIButton()
+        pauseButton.setTitle("Pause", for: .normal)
+        pauseButton.backgroundColor = .red
+        pauseButton.layer.cornerRadius = 10
+        
+        bottomButtons.addArrangedSubview(pauseButton)
     }
     
     required init?(coder: NSCoder) {

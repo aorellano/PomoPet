@@ -24,8 +24,10 @@ class TimerView: UIView {
     
     func setupTimer() {
         timer.text = "25:00"
-        timer.font = timer.font.withSize(100)
+        timer.font = timer.font.withSize(115)
         timer.textColor = Theme.current.accentColor
+       
+
         timer.translatesAutoresizingMaskIntoConstraints = false
         placeTimer()
     }
