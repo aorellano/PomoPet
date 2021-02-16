@@ -13,7 +13,6 @@
 		D02BD75A25887D7100CE9DC5 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD75925887D7100CE9DC5 /* TimerView.swift */; };
 		D02BD7622588836F00CE9DC5 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD7612588836F00CE9DC5 /* ViewController+Extension.swift */; };
 		D02BD7762588905700CE9DC5 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD7752588905700CE9DC5 /* CharacterView.swift */; };
-		D02BD77B2589331000CE9DC5 /* CoinHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02BD77A2589331000CE9DC5 /* CoinHeaderView.swift */; };
 		D030A0DD258AE0E100B12F0E /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A0DC258AE0E100B12F0E /* ThemeProtocol.swift */; };
 		D030A0E5258AE36E00B12F0E /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A0E4258AE36E00B12F0E /* LightTheme.swift */; };
 		D030A0EA258AE37700B12F0E /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D030A0E9258AE37700B12F0E /* DarkTheme.swift */; };
@@ -26,6 +25,10 @@
 		D056B1112588444C000FED6D /* PomoPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B1102588444C000FED6D /* PomoPetUITests.swift */; };
 		D056B12725886E0E000FED6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D056B12625886E0E000FED6D /* HomeView.swift */; };
 		D0679F1625CA636100A18CCF /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0679F1525CA636100A18CCF /* TabController.swift */; };
+		D0E7266825DB4D7C00BDD0D6 /* TimerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E7266725DB4D7C00BDD0D6 /* TimerDelegate.swift */; };
+		D0F46F9725DC4FBA002583BA /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F46F9625DC4FBA002583BA /* Interval.swift */; };
+		D0F46F9F25DC5001002583BA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F46F9E25DC5001002583BA /* Task.swift */; };
+		D0F46FA425DC504F002583BA /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F46FA325DC504F002583BA /* Project.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +55,6 @@
 		D02BD75925887D7100CE9DC5 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		D02BD7612588836F00CE9DC5 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 		D02BD7752588905700CE9DC5 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
-		D02BD77A2589331000CE9DC5 /* CoinHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinHeaderView.swift; sourceTree = "<group>"; };
 		D030A0DC258AE0E100B12F0E /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
 		D030A0E4258AE36E00B12F0E /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
 		D030A0E9258AE37700B12F0E /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
@@ -71,6 +73,10 @@
 		D056B1122588444C000FED6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D056B12625886E0E000FED6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D0679F1525CA636100A18CCF /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		D0E7266725DB4D7C00BDD0D6 /* TimerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDelegate.swift; sourceTree = "<group>"; };
+		D0F46F9625DC4FBA002583BA /* Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
+		D0F46F9E25DC5001002583BA /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D0F46FA325DC504F002583BA /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,7 @@
 		D056B0ED25884447000FED6D /* PomoPet */ = {
 			isa = PBXGroup;
 			children = (
+				D0F46F9525DC4FAC002583BA /* Model */,
 				D030A0DA258ADF6700B12F0E /* Resources */,
 				D056B12525886DFB000FED6D /* Timer */,
 				D056B0EE25884447000FED6D /* AppDelegate.swift */,
@@ -180,9 +187,19 @@
 				D02BD75925887D7100CE9DC5 /* TimerView.swift */,
 				D02BD75425887D6300CE9DC5 /* CharacterController.swift */,
 				D02BD7752588905700CE9DC5 /* CharacterView.swift */,
-				D02BD77A2589331000CE9DC5 /* CoinHeaderView.swift */,
+				D0E7266725DB4D7C00BDD0D6 /* TimerDelegate.swift */,
 			);
 			path = Timer;
+			sourceTree = "<group>";
+		};
+		D0F46F9525DC4FAC002583BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0F46F9625DC4FBA002583BA /* Interval.swift */,
+				D0F46F9E25DC5001002583BA /* Task.swift */,
+				D0F46FA325DC504F002583BA /* Project.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,14 +337,17 @@
 				D02BD75525887D6300CE9DC5 /* CharacterController.swift in Sources */,
 				D030A0DD258AE0E100B12F0E /* ThemeProtocol.swift in Sources */,
 				D030A0EA258AE37700B12F0E /* DarkTheme.swift in Sources */,
+				D0F46FA425DC504F002583BA /* Project.swift in Sources */,
 				D056B0EF25884447000FED6D /* AppDelegate.swift in Sources */,
+				D0E7266825DB4D7C00BDD0D6 /* TimerDelegate.swift in Sources */,
+				D0F46F9725DC4FBA002583BA /* Interval.swift in Sources */,
 				D02BD75025887D4E00CE9DC5 /* TimerController.swift in Sources */,
 				D02BD7762588905700CE9DC5 /* CharacterView.swift in Sources */,
-				D02BD77B2589331000CE9DC5 /* CoinHeaderView.swift in Sources */,
 				D0679F1625CA636100A18CCF /* TabController.swift in Sources */,
 				D056B12725886E0E000FED6D /* HomeView.swift in Sources */,
 				D030A0E5258AE36E00B12F0E /* LightTheme.swift in Sources */,
 				D056B0F125884447000FED6D /* SceneDelegate.swift in Sources */,
+				D0F46F9F25DC5001002583BA /* Task.swift in Sources */,
 				D008A60C25A8EF7600B6E707 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

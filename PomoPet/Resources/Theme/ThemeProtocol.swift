@@ -9,5 +9,7 @@ import UIKit
 protocol ThemeProtocol {
     var backgroundColor: UIColor { get }
     var accentColor: UIColor { get }
-    var tintColor: UIColor { get }
+    var tintColorPurple: UIColor { get }
+    var tintColorBlue: UIColor { get }
+    var checkMarkColor: UIColor { get }
 }
